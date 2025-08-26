@@ -93,7 +93,7 @@ function App() {
       setSymbol("❄");
     } else if (weatherText.includes("fog") || weatherText.includes("haze")) {
       setSymbol("🌫");
-    }else {
+    } else {
       setSymbol("🌤"); // default
     }
   }, [data]); // 👈 runs every time "data" updates
